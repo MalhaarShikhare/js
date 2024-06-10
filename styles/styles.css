@@ -1,0 +1,87 @@
+button,span{
+  font-family: Arial, Helvetica, sans-serif;
+}
+#logo{
+   padding-left: 150px;
+}
+button{
+    color: white;
+    font-size:large ;
+    background-color:#387ed1;
+    padding: 2px;
+    width: 160px;
+    height: 50px;
+    font-weight:600; 
+    border: none;
+    border-radius: 4px;
+}
+button:hover
+{
+    background-color: black;
+    color: white;
+}
+#image{
+   display:flex;
+   justify-content: center;
+   margin-bottom: 15px;
+}
+span{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:larger;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#navbar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500; 
+    height: 100px;
+    margin-left: 40px;
+    margin-right: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 1px #eee;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-right: 100px;
+    margin-right: 0px;
+}
+span{
+    color: #666;
+    cursor: pointer;
+}
+span:hover{
+    color: #387ed1;
+}
+
+#options
+{
+    display: flex;
+}
+#im{
+    object-fit: cover;
+}
+#stmt1{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    height: 100px;
+    padding-bottom: 20px;
+}
+#stmt2{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    font-weight: 100;
+    font-size: 30px;
+}
+#signup{
+    display: flex;
+    justify-content: center;
+
+}
